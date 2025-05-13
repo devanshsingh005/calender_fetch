@@ -1,0 +1,66 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+input[type="date"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+p strong {
+  color: #111;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 15px;
+}
